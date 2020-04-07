@@ -1,12 +1,15 @@
 eval "$(starship init zsh)"
 eval "$(direnv hook zsh)"
 
-source $HOME/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-source $HOME/.zsh/completion.zsh
+ if type brew &>/dev/null; then
+    FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 
-# Load completion config
-source $HOME/.zsh/completion.zsh
+    autoload -Uz compinit
+    compinit
+  fi
 
 # Initialize the completion system
 autoload -Uz compinit
@@ -20,7 +23,9 @@ else
 fi
 
 # Enhanced form of menu completion called `menu selection'
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+
+
 source $HOME/.zsh/history.zsh
 source $HOME/.zsh/key-bindings.zsh
 source $HOME/.zsh/aliases.zsh

@@ -11,3 +11,6 @@ echo | /bin/bash -c "$(curl -fsSL $URL_BREW)" > /dev/null
 if [ $? -eq 0 ]; then echo 'OK'; else echo 'NG'; fi
 
 brew bundle install 
+
+ln -s $DIR/,zsh $HOME/,zsh
+ln -s $DIR/,zshrc $HOME/,zshrc
