@@ -1,0 +1,1 @@
+/Users/mahmoud/dotfiles/.zsh

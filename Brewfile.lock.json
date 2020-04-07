@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "9aef2b4b6c1cd36d13f6f3a468f2813306052aa6"
+        "revision": "a9d3de5dc6315848e51f2aba70d8ab26595585df"
       },
       "homebrew/bundle": {
         "revision": "40fb8097408f458e4ad6df168f28c9ebb01d587f"
       },
       "homebrew/cask-versions": {
-        "revision": "e956fe27b04c672cd0d8d989890d55798acdf7db"
+        "revision": "3b3b2dbeb2b44b74d87d609fc50351e9c4672d81"
       },
       "homebrew/core": {
-        "revision": "ca173c85d4734c1a083f5d7c9d545f49eaee6399"
+        "revision": "8a02ca60e50c8d7eaae0cae214f4d80272f1c62e"
       }
     },
     "cask": {
@@ -135,22 +135,22 @@
         }
       },
       "starship": {
-        "version": "0.38.1",
+        "version": "0.39.0",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/starship-0.38.1.catalina.bottle.tar.gz",
-              "sha256": "bb42b5ac227280bb6dafe0f7c1f70851cde6273a375461d201f94c96777c87ca"
+              "url": "https://homebrew.bintray.com/bottles/starship-0.39.0.catalina.bottle.tar.gz",
+              "sha256": "ac6040dd41502ce7d70cc74843e03ffdfc67e5537cf1b13d26cba672330b4f36"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/starship-0.38.1.mojave.bottle.tar.gz",
-              "sha256": "d9a07177b9b2af743fb294cc391a79df0327e11c9848874e3b170b7ab7a5458c"
+              "url": "https://homebrew.bintray.com/bottles/starship-0.39.0.mojave.bottle.tar.gz",
+              "sha256": "0cde50c6993ff05cbd3baa3470f04031f21cfc26dbdc7fc33aecb55fd2018c57"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/starship-0.38.1.high_sierra.bottle.tar.gz",
-              "sha256": "14ac37580fb454c23e8d2c6d1a916dc7ea43b60c880012a51c7b0bc8a22549f7"
+              "url": "https://homebrew.bintray.com/bottles/starship-0.39.0.high_sierra.bottle.tar.gz",
+              "sha256": "4b14c262a6a4db3b86b040794c63da6cc931c68cbe306eae922e61ac13ca7f14"
             }
           }
         }
@@ -287,7 +287,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.11",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "ca173c85d4734c1a083f5d7c9d545f49eaee6399",
+        "Homebrew/homebrew-core": "8a02ca60e50c8d7eaae0cae214f4d80272f1c62e",
         "CLT": "11.0.0.0.1.1567737322",
         "Xcode": "11.3",
         "macOS": "10.15.4"

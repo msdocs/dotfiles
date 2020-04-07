@@ -13,4 +13,4 @@ if [ $? -eq 0 ]; then echo 'OK'; else echo 'NG'; fi
 brew bundle install 
 
 ln -s $DIR/.zsh $HOME/.zsh
-ln -s $DIR/.zshrc $HOME/.zshrc
+ln -s $DIR/.zsh/ .zshrc $HOME/.zshrc
